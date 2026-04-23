@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="./public/hard-disk.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>PC Gamer Master</title>
+  </head>
+  <body>
+
+    <nav id="global-nav">
+      <div class="nav-overlay" id="nav-overlay"></div> <!-- sensor del clic en fondo -->
+
+      <div class="nav-toggle" id="menu-toggle">
+    
+        <!-- cambia entre 'INICIO' y 'CERRAR' -->
+        <span id="page-title" class="text-white fw-bold" role="button" aria-label="Abrir menu" tabindex="0">INICIO</span>
+
+        <!-- Contenedor del contenido del menú -->
+        <div id="menu-content" class="container mt-5">
+          <div class="row align-items-center">
+
+            <!-- Enlaces navegación -->
+            <div class="col-md-6 mb-5 mb-md-0">
+              <ul class="list-unstyled nav-links">
+                <li>
+                  <a href="./index.html" class="display-4 text-decoration-none text-white fw-bold">INICIO</a>
+                </li>
+                <li>
+                  <a href="./views/galeria.html" class="display-4 text-decoration-none text-white fw-bold">CATÁLOGO</a>
+                </li>
+                <li>
+                  <a href="./views/presupuesto.html" class="display-4 text-decoration-none text-white fw-bold">ARMAR TU PC</a>
+                </li>
+                <li>
+                  <a href="./views/contacto.html" class="display-4 text-decoration-none text-white fw-bold">FINALIZAR PEDIDO</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Información de la tienda -->
+            <div class="col-md-6 border-start border-secondary ps-md-5 text-white">
+              <h4 class="text-info mb-3">PC Gamer Master</h4>
+              <p class="lead">Tu tienda de hardware de alto rendimiento.</p>
+              <hr class="bg-secondary">
+              <div class="row">
+                <div class="col-6">
+                  <h5>Ubicación</h5>
+                  <p class="small opacity-75">Av. de Leganés, 6, local 3, 28921<br>Alcorcón, Madrid</p>
+                </div>
+
+
+                <div class="col-6">
+                  <h5>Síguenos</h5>
+                  <div class="social-links">
+                    <a href="https://www.instagram.com/kalleby.lyra/" target="_blank" class="social-btn" id="btn-instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.555.01 4.703.048 3.853.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.853.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm.003 1.44c2.136 0 2.39.009 3.233.048.78.036 1.203.166 1.485.276.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.276 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.036.78-.166 1.203-.276 1.485-.145.373-.319.64-.599.92s-.546.453-.92.598c-.28.11-.704.24-1.485.276-.842.039-1.096.047-3.232.047s-2.39-.008-3.232-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.232s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.843-.038 1.096-.047 3.232-.047z"/>
+                      <path d="M8 3.892a4.108 4.108 0 1 0 0 8.216 4.108 4.108 0 0 0 0-8.216zm0 6.775a2.667 2.667 0 1 1 0-5.334 2.667 2.667 0 0 1 0 5.334zm5.23-6.937a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0z"/>
+                    </svg>
+                    <span>Instagram</span>
+                    </a>
+
+                    <a href="https://github.com/Ka-Lira" target="_blank" class="social-btn" id="btn-github">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>
+                      <span>GitHub</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+        </div> <!-- Fin de menu-content -->
+
+      </div> <!-- Fin de nav-toggle -->
+    </nav>
+
+    <main>
+      <!-- seccion bienvenido -->
+       <section id="welcome" class="d-flex align-items-center justify-content-center">
+        <div class="text-center text-white">
+          <h1 class="display-1 fw-bold">BIENVENIDO</h1>
+          <p class="lead">Explora la potencia</p>
+        </div>
+
+        <!-- Indicador scroll -->
+         <div class="scroll-indicator" id="scroll-hint">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <p>DESLIZA</p>
+         </div>
+      </section>
+
+      <!-- section noticias (AJAX) -->
+      <section id="news" class="align-items-center">
+        <div class="card-sober">
+          <h2 class="text-white fw-light mb-3">NOTICIAS</h2>
+          <div id="news-container" class="text-white-50 small">
+            <!-- Aquí se encontrara las noticias dinámicas -->
+             <p>Cargando últimas novedades del hardware...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- section carousel -->
+       <section id="highlights">
+        <div class="highlights-backdrop" id="highlights-backdrop"></div>
+        <div class="highlights-modal">
+          <h2 class="text-white fw-light mb-3 text-center">DESTACADOS</h2>
+          <div id="highlights-container">
+            <div class="carrusel-wrapper">
+
+              <div class="carrusel-track" id="carrusel-track">
+
+                <div class="carrusel-item active">
+                  <img src="./img/destacados/gpu.jpg" alt="Tarjeta Gráfica RTX 4080 Super">
+                  <div class="carrusel-info">
+                    <span class="carrusel-tag">PLACA DE VÍDEO</span>
+                    <h3>RTX 4080 Super</h3>
+                    <p>Ray Tracing y DLSS 3 para el máximo rendimiento visual</p>
+                    <span class="carrusel-precio">1.199 €</span>
+                  </div>
+                </div>
+
+                <div class="carrusel-item">
+                  <img src="./img/destacados/cpu.jpg" alt="Procesador Intel Core i9 de 14 generación">
+                  <div class="carrusel-info">
+                    <span class="carrusel-tag">PROCESADOR</span>
+                    <h3>Intel Core i9-14900K</h3>
+                    <p>24 núcleos para render, IA y gaming sin compromiso.</p>
+                    <span class="carrusel-precio">589 €</span>
+                  </div>
+                </div>
+
+                <div class="carrusel-item">
+                  <img src="./img/destacados/setup.jpg" alt="Escritorio Gamer con configuración completa">
+                  <div class="carrusel-info">
+                    <span class="carrusel-tag">SETUP COMPLETO</span>
+                    <h3>Setup Pro 2025</h3>
+                    <p>Torre montada, monitor 4K y periféricos incluidos.</p>
+                    <span class="carrusel-precio">2.899 €</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Controles -->
+               <div class="carrusel-controles">
+                <button type="button" class="carrusel-btn" id="carrusel-prev" aria-label="Anterior">&#8592;</button>
+                <div class="carrusel-dots" id="carrusel-dots">
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+                <button type="button" class="carrusel-btn" id="carrusel-next" aria-label="Siguiente">&#8594;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+       <!-- "footer" -->
+        <footer id="main-footer" class="bg-black text-white py-5">
+          <div class="container text-center bg-dark-transparent">
+            <p>Av. de Leganés, 6, local 3, 28921 Alcorcón, Madrid</p>
+            <a href="#" class="text-white-50 small text-decoration-none mx-2">Aviso Legal</a>
+            <a href="#" class="text-white-50 small text-decoration-none mx-2">Política de Privacidad</a>
+            <p class="small opacity-50">&copy; 2026 PC Gamer Master - Proyecto Universitario</p>
+          </div>
+        </footer>
+
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+:root {
+    --cyan: #00ffff;
+}
+
+body {
+    background: radial-gradient(circle at top center, #1a1a2e 0%, #0a0a0a 100%);
+    font-family: 'Barlow', sans-serif;
+}
+
+main section {
+    min-height: 0 !important;
+    display: block;
+    align-items: baseline !important;
+}
+
+.text-cyan {
+    color: var(--cyan);
+}
+
+.bg-glass {
+    background: rgba(15, 15, 15, 0.7);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 255, 255, 0.2) !important;
+}
+
+.builder-section {
+    position: relative;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 70px 40px 40px 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 30px !important;
+    display: block !important;
+    clear: both;
+
+    min-height: auto !important;
+    height:  auto !important;
+}
+
+.section-header {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: var(--cyan);
+    text-shadow: 0  0   10px rgba(0, 255, 255, 0.3);
+    margin: 0;
+    z-index: 5;
+    opacity: 0.8;
+}
+
+.form-control, .form-select {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 12px 15px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.form-control:focus, .form-select:focus{
+    background-color: #1a1a2e;
+    border-color: var(--cyan);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.form-label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+option:disabled {
+    color: #555;
+    background-color: #111 !important;
+    font-style: italic;
+}
+
+/* Slider días */
+.form-range::-webkit-slider-thumb {
+    background: var(--cyan);
+}
+
+.form-range::-moz-range-thumb {
+    background: var(--cyan);
+}
+
+.sticky-top {
+    top: 100px;
+    z-index: 10;
+}
+
+/* feedback form */
+.invalid-feedback {
+    color: #ff4d4d;
+    font-size: 0.75rem;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.is-invalid {
+    border-color: #ff4d4d !important;
+}
+
+.is-valid {
+    border-color: var(--cyan) !important;
+}
+
+/* contenedor plazo */
+.plazo-container {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 255, 255, 0.03);
+    border: 1px solid rgba(0, 255, 255, 0.1) !important;
+    border-radius: 8px;
+
+    padding: 30px;
+    min-height: 140px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row.g-3, .row.g-4 {
+    --bs-gutter-y: 1.5rem;
+}
+
+/* urgencia en el resumen */
+.item-urgencia {
+    color: #ff4d4d;
+    border-top: 1px dashed rgba(255, 77, 77, 0.3);
+    padding-top: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* resumen de montaje se move com GSAP */
+.summary-card {
+    position: relative;
+    will-change: transform;
+}

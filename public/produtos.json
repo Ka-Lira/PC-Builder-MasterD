@@ -1,0 +1,771 @@
+{
+  "produtos": {
+    "processadores": [
+      {
+        "nome": "Intel Core Ultra 5 250KF",
+        "imagem": "img/pecas/processadores/IntelCoreUltra5.2.jpg",
+        "preco": 325,
+        "url": "https://www.pichau.com.br/processador-intel-core-ultra-5-250kf-plus-18-core-18-threads-4-2ghz-5-3ghz-turbo-cache-30mb-lga1851-bx80768250kf",
+        "especificacoes": {
+          "soquete": "LGA1851",
+          "nucleos": 18,
+          "threads": 18,
+          "frequencia_base": "4.2GHz",
+          "frequencia_turbo": "5.3GHz",
+          "cache": "30MB",
+          "tdp": "125W",
+          "serie": "Core Ultra Series 2"
+        }
+      },
+      {
+        "nome": "AMD Ryzen 7 7700",
+        "preco": 315,
+        "imagem": "img/pecas/processadores/Ryzen77700.jpg",
+        "url": "https://www.pichau.com.br/processador-amd-ryzen-7-7700-8-core-16-threads-3-8ghz-5-3ghz-turbo-cache-40mb-am5-100-100000592sbx",
+        "especificacoes": {
+          "soquete": "AM5",
+          "nucleos": 8,
+          "threads": 16,
+          "frequencia_base": "3.8GHz",
+          "frequencia_turbo": "5.3GHz",
+          "cache": "40MB",
+          "arquitetura": "Zen 4",
+          "video_integrado": "Sim"
+        }
+      },
+      {
+        "nome": "AMD Ryzen 9 7900",
+        "preco": 410,
+        "imagem": "img/pecas/processadores/Ryzen97900.jpg",
+        "url": "https://www.pichau.com.br/processador-amd-ryzen-9-7900-12-core-24-threads-3-7ghz-5-4ghzturbo-cache-76mb-am5-100-100000590wof",
+        "especificacoes": {
+          "soquete": "AM5",
+          "nucleos": 12,
+          "threads": 24,
+          "frequencia_base": "3.7GHz",
+          "frequencia_turbo": "5.4GHz",
+          "cache": "76MB",
+          "arquitetura": "Zen 4"
+        }
+      },
+      {
+        "nome": "AMD Ryzen 5 4500",
+        "preco": 79,
+        "imagem": "img/pecas/processadores/Ryzen54500.jpg",
+        "url": "https://www.pichau.com.br/processador-amd-ryzen-5-4500-6-core-12-threads-3-6ghz-4-1ghz-turbo-cache-11mb-am4-100-100000644box-br",
+        "especificacoes": {
+          "soquete": "AM4",
+          "nucleos": 6,
+          "threads": 12,
+          "frequencia_base": "3.6GHz",
+          "frequencia_turbo": "4.1GHz",
+          "cache": "11MB",
+          "arquitetura": "Zen 2"
+        }
+      },
+      {
+        "nome": "Intel Core Ultra 7 265",
+        "preco": 445,
+        "imagem": "img/pecas/processadores/IntelCoreUltra7265.jpg",
+        "url": "https://www.pichau.com.br/processador-intel-core-ultra-7-265-20-core-20-threads-2-40ghz-5-3ghz-turbo-cache-30mb-lga1851-bx80768265",
+        "especificacoes": {
+          "soquete": "LGA1851",
+          "nucleos": 20,
+          "threads": 20,
+          "frequencia_base": "2.40GHz",
+          "frequencia_turbo": "5.3GHz",
+          "cache": "30MB",
+          "serie": "Core Ultra Series 2"
+        }
+      },
+      {
+        "nome": "Intel Core i9-14900F",
+        "preco": 570,
+        "imagem": "img/pecas/processadores/IntelCoreI914900f.jpg",
+        "url": "https://www.pichau.com.br/processador-intel-core-i9-14900f-24-core-32-threads-3-2ghz-5-8ghz-turbo-cache-36mb-lga1700-bx8071514900f",
+        "especificacoes": {
+          "soquete": "LGA1700",
+          "nucleos": 24,
+          "threads": 32,
+          "frequencia_base": "3.2GHz",
+          "frequencia_turbo": "5.8GHz",
+          "cache": "36MB",
+          "geracao": "14ª Geração"
+        }
+      },
+      {
+        "nome": "Intel Core i5-12400F",
+        "preco": 135,
+        "imagem": "img/pecas/processadores/IntelCoreI512400F.jpg",
+        "url": "https://www.pichau.com.br/processador-intel-core-i5-12400f-6-core-12-threads-2-5ghz-4-4ghz-turbo-cache-18mb-lga1700-bx8071512400f-br",
+        "especificacoes": {
+          "soquete": "LGA1700",
+          "nucleos": 6,
+          "threads": 12,
+          "frequencia_base": "2.5GHz",
+          "frequencia_turbo": "4.4GHz",
+          "cache": "18MB",
+          "geracao": "12ª Geração"
+        }
+      },
+      {
+        "nome": "AMD Ryzen 5 3400G",
+        "preco": 95,
+        "imagem": "img/pecas/processadores/Ryzen53400G.jpg",
+        "url": "https://www.pichau.com.br/processador-amd-ryzen-5-3400g-4-core-8-threads-3-7ghz-4-2ghz-turbo-cache-6mb-am4-yd3400c5fhsbx",
+        "especificacoes": {
+          "soquete": "AM4",
+          "nucleos": 4,
+          "threads": 8,
+          "frequencia_base": "3.7GHz",
+          "frequencia_turbo": "4.2GHz",
+          "cache": "6MB",
+          "video_integrado": "Radeon RX Vega 11"
+        }
+      },
+      {
+        "nome": "AMD Ryzen 9 9950X3D",
+        "preco": 849,
+        "imagem": "img/pecas/processadores/Ryzen99950X3D.jpg",
+        "url": "https://www.pichau.com.br/processador-amd-ryzen-9-9950x3d-16-core-32-threads-4-3ghz-5-7ghz-turbo-cache-144mb-am5-100-100000719wof",
+        "especificacoes": {
+          "soquete": "AM5",
+          "nucleos": 16,
+          "threads": 32,
+          "frequencia_base": "4.3GHz",
+          "frequencia_turbo": "5.7GHz",
+          "cache": "144MB",
+          "tecnologia": "3D V-Cache",
+          "arquitetura": "Zen 5"
+        }
+      }
+    ],
+    "placas_mae": [
+      {
+        "nome": "Gigabyte Z890 Aorus Elite X Ice",
+        "preco": 360,
+        "imagem": "img/pecas/placa-mae/AorusEliteZ890.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-gigabyte-z890-aorus-elite-x-ice-ddr5-lga-1851-atx-chipset-intel-z890-z890-aorus-elite-x-ice",
+        "especificacoes": {
+          "soquete": "LGA1851",
+          "formato": "ATX",
+          "chipset": "Intel Z890",
+          "memoria": "DDR5",
+          "cor": "Branco/Gelo",
+          "recursos": "PCIe 5.0, Wi-Fi 7 Ready"
+        }
+      },
+      {
+        "nome": "Gigabyte Z890I Aorus Ultra",
+        "preco": 385,
+        "imagem": "img/pecas/placa-mae/AorusEliteZ890I.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-gigabyte-z890i-aorus-ultra-ddr5-lga1851-mini-itx-chipset-intel-z890-z890i-aorus-ultra",
+        "especificacoes": {
+          "soquete": "LGA1851",
+          "formato": "Mini-ITX",
+          "chipset": "Intel Z890",
+          "memoria": "DDR5",
+          "recursos": "Compacta, Alta Performance"
+        }
+      },
+      {
+        "nome": "MSI MAG B860 Tomahawk WiFi",
+        "preco": 230,
+        "imagem": "img/pecas/placa-mae/TomahawkWifiB860.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-msi-mag-b860-tomahawk-wifi-ddr5-lga1851-atx-chipset-intel-b860-mag-b860-tomahawk-wifi",
+        "especificacoes": {
+          "soquete": "LGA1851",
+          "formato": "ATX",
+          "chipset": "Intel B860",
+          "memoria": "DDR5",
+          "recursos": "Wi-Fi Integrado, Blindagem M.2"
+        }
+      },
+      {
+        "nome": "Asus B760M-AYW WiFi",
+        "preco": 145,
+        "imagem": "img/pecas/placa-mae/AsusB760M-AYW-Wifi.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-asus-b760m-ayw-wifi-ddr5-socket-lga-1700-m-atx-chipset-intel-b760-b760m-ayw-wifi",
+        "especificacoes": {
+          "soquete": "LGA1700",
+          "formato": "m-ATX",
+          "chipset": "Intel B760",
+          "memoria": "DDR5",
+          "recursos": "Wi-Fi, Suporte 12ª/13ª/14ª Gen"
+        }
+      },
+      {
+        "nome": "ASRock H610M-HDV M.2",
+        "preco": 85,
+        "imagem": "img/pecas/placa-mae/AsrockG610M-HDV.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-asrock-h610m-hdv-m-2-d5-ddr5-lga-1700-m-atx-chipset-intel-h610-h610m-hdv-m-2plusd5",
+        "especificacoes": {
+          "soquete": "LGA1700",
+          "formato": "m-ATX",
+          "chipset": "Intel H610",
+          "memoria": "DDR5",
+          "recursos": "Custo-benefício, Slot M.2"
+        }
+      },
+      {
+        "nome": "Gigabyte B760M Aorus Elite",
+        "preco": 165,
+        "imagem": "img/pecas/placa-mae/GigabyteB760M.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-gigabyte-b760m-aorus-elite-ddr5-lga1700-m-atx-chipset-intel-b760-b760m-a-elite-gen5",
+        "especificacoes": {
+          "soquete": "LGA1700",
+          "formato": "m-ATX",
+          "chipset": "Intel B760",
+          "memoria": "DDR5",
+          "recursos": "VRM Digital, PCIe Gen5"
+        }
+      },
+      {
+        "nome": "Mancer B450M DA V2",
+        "preco": 72,
+        "imagem": "img/pecas/placa-mae/MancerB450M.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-mancer-b450m-da-v2-ddr4-socket-am4-m-atx-chipset-amd-b450-mcr-b450m-dav2",
+        "especificacoes": {
+          "soquete": "AM4",
+          "formato": "m-ATX",
+          "chipset": "AMD B450",
+          "memoria": "DDR4",
+          "recursos": "Entrada, Ideal para Ryzen 3000/5000"
+        }
+      },
+      {
+        "nome": "ASRock B450M-HDV R4.0",
+        "preco": 68,
+        "imagem": "img/pecas/placa-mae/AsrockB450M.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-asrock-b450m-hdv-r4-0-ddr4-socket-amd-am4-m-atx-chipset-amd-b450-b450m-hdv-r4-0-ddr4",
+        "especificacoes": {
+          "soquete": "AM4",
+          "formato": "m-ATX",
+          "chipset": "AMD B450",
+          "memoria": "DDR4",
+          "recursos": "Ultra M.2, HDMI 4K"
+        }
+      },
+      {
+        "nome": "Gigabyte B550M Aorus Elite",
+        "preco": 115,
+        "imagem": "img/pecas/placa-mae/GigabyteAorusEliteB550M.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-gigabyte-b550m-aorus-elite-ddr4-socket-amd-am4-m-atx-chipset-amd-b550-b550m-aorus-elite",
+        "especificacoes": {
+          "soquete": "AM4",
+          "formato": "m-ATX",
+          "chipset": "AMD B550",
+          "memoria": "DDR4",
+          "recursos": "PCIe 4.0, RGB Fusion"
+        }
+      },
+      {
+        "nome": "Asus TUF Gaming B650M-E WiFi",
+        "preco": 180,
+        "imagem": "img/pecas/placa-mae/AsusTUFB650MWifi.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-asus-tuf-gaming-b650m-e-wifi-ddr5-socket-amd-am5-m-atx-chipset-amd-b650-tuf-gaming-b650m-e-wifi",
+        "especificacoes": {
+          "soquete": "AM5",
+          "formato": "m-ATX",
+          "chipset": "AMD B650",
+          "memoria": "DDR5",
+          "recursos": "Durabilidade Militar, Wi-Fi 6"
+        }
+      },
+      {
+        "nome": "Asus ROG Strix X870-F Gaming WiFi",
+        "preco": 460,
+        "imagem": "img/pecas/placa-mae/AsusRogStrixX870-F.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-asus-rog-strix-x870-f-gaming-wifi-ddr5-socket-amd-am5-atx-chipset-amd-x870-rog-strix-x870-f-gaming-wifi",
+        "especificacoes": {
+          "soquete": "AM5",
+          "formato": "ATX",
+          "chipset": "AMD X870",
+          "memoria": "DDR5",
+          "recursos": "Entusiasta, USB4, WiFi 7"
+        }
+      },
+      {
+        "nome": "ASRock X870E Nova WiFi",
+        "preco": 435,
+        "imagem": "img/pecas/placa-mae/AsrockX870E.jpg",
+        "url": "https://www.pichau.com.br/placa-mae-asrock-x870e-nova-wifi-phantom-gaming-ddr5-socket-am5-atx-chipset-amd-x870e-x870e-nova-wifi",
+        "especificacoes": {
+          "soquete": "AM5",
+          "formato": "ATX",
+          "chipset": "AMD X870E",
+          "memoria": "DDR5",
+          "recursos": "20+2+1 Phase Power, Phantom Gaming"
+        }
+      }
+    ],
+    "memorias_ram": [
+      {
+        "nome": "Redragon Solar RGB 8GB",
+        "preco": 32,
+        "imagem": "img/pecas/ram/RedragonDDR43600.jpg",
+        "url": "https://www.pichau.com.br/memoria-redragon-solar-rgb-8gb-1x8gb-ddr4-3600mhz-c18-preta-e-dourada-gm-805",
+        "especificacoes": {
+          "tipo": "DDR4",
+          "frequencia": "3600MHz",
+          "capacidade": "8GB",
+          "latencia": "CL18",
+          "cor": "Preto/Dourado",
+          "iluminacao": "RGB"
+        }
+      },
+      {
+        "nome": "Pichau Helix RGB 8GB",
+        "preco": 29,
+        "imagem": "img/pecas/ram/PichauDDR43600.jpg",
+        "url": "https://www.pichau.com.br/memoria-pichau-helix-rgb-8gb-1x8gb-ddr4-3600mhz-c22-preto-pch-hlxrgb3600-8gb",
+        "especificacoes": {
+          "tipo": "DDR4",
+          "frequencia": "3600MHz",
+          "capacidade": "8GB",
+          "latencia": "CL22",
+          "iluminacao": "RGB"
+        }
+      },
+      {
+        "nome": "Adata XPG Gammix D35 8GB",
+        "preco": 28,
+        "imagem": "img/pecas/ram/AdataDDRA3200.jpg",
+        "url": "https://www.pichau.com.br/memoria-adata-xpg-gammix-d35-8gb-1x8gb-ddr4-3200mhz-c16-preto-ax4u32008g16a-sbkd35",
+        "especificacoes": {
+          "tipo": "DDR4",
+          "frequencia": "3200MHz",
+          "capacidade": "8GB",
+          "latencia": "CL16",
+          "perfil": "Low Profile"
+        }
+      },
+      {
+        "nome": "Mancer Astrion 16GB",
+        "preco": 48,
+        "imagem": "img/pecas/ram/MancerDDRA3600.jpg",
+        "url": "https://www.pichau.com.br/memoria-mancer-astrion-16gb-1x16gb-ddr4-3600mhz-c22-preto-mcr-astn3600-16gb",
+        "especificacoes": {
+          "tipo": "DDR4",
+          "frequencia": "3600MHz",
+          "capacidade": "16GB",
+          "latencia": "CL22"
+        }
+      },
+      {
+        "nome": "Adata XPG Spectrix D35G RGB 16GB",
+        "preco": 55,
+        "imagem": "img/pecas/ram/AdataDDR43200.jpg",
+        "url": "https://www.pichau.com.br/memoria-adata-xpg-spectrix-d35g-rgb-16gb-1x16gb-ddr4-3200mhz-c16-preto-ax4u320016g16a-sbkd35g",
+        "especificacoes": {
+          "tipo": "DDR4",
+          "frequencia": "3200MHz",
+          "capacidade": "16GB",
+          "latencia": "CL16",
+          "iluminacao": "RGB"
+        }
+      },
+      {
+        "nome": "Patriot Viper 16GB",
+        "preco": 62,
+        "imagem": "img/pecas/ram/PatriotDDR44000.jpg",
+        "url": "https://www.pichau.com.br/memoria-patriot-viper-16gb-1x16gb-ddr4-4000mhz-c20-vermelho-e-preto-pve2416g400c0",
+        "especificacoes": {
+          "tipo": "DDR4",
+          "frequencia": "4000MHz",
+          "capacidade": "16GB",
+          "latencia": "CL20",
+          "cor": "Vermelho/Preto"
+        }
+      },
+      {
+        "nome": "Team Group T-Force Vulcan 8GB",
+        "preco": 45,
+        "imagem": "img/pecas/ram/TForceDDR55200.jpg",
+        "url": "https://www.pichau.com.br/memoria-team-group-t-force-vulcan-8gb-1x8gb-ddr5-5200mhz-cl40-preta-flbd58g5200hc40c01",
+        "especificacoes": {
+          "tipo": "DDR5",
+          "frequencia": "5200MHz",
+          "capacidade": "8GB",
+          "latencia": "CL40"
+        }
+      },
+      {
+        "nome": "Pichau Hubble 8GB",
+        "preco": 42,
+        "imagem": "img/pecas/ram/PichauDDR55600.jpg",
+        "url": "https://www.pichau.com.br/memoria-pichau-hubble-8gb-1x8gb-ddr5-5600mhz-c46-preto-pch-hble8ddr5-5600",
+        "especificacoes": {
+          "tipo": "DDR5",
+          "frequencia": "5600MHz",
+          "capacidade": "8GB",
+          "latencia": "CL46"
+        }
+      },
+      {
+        "nome": "Patriot Viper Venom 8GB",
+        "preco": 49,
+        "imagem": "img/pecas/ram/PatriotDDR56000.jpg",
+        "url": "https://www.pichau.com.br/memoria-patriot-viper-venom-8gb-1x8gb-ddr5-6000mhz-c36-preto-pvv58g600c36g",
+        "especificacoes": {
+          "tipo": "DDR5",
+          "frequencia": "6000MHz",
+          "capacidade": "8GB",
+          "latencia": "CL36"
+        }
+      },
+      {
+        "nome": "Adata XPG Armax RGB 16GB",
+        "preco": 75,
+        "imagem": "img/pecas/ram/AdataDDR55600.jpg",
+        "url": "https://www.pichau.com.br/memoria-adata-xpg-armax-rgb-16gb-1x16gb-ddr5-5600mhz-cl46-preto-ax5u5600c4616g-samrbk",
+        "especificacoes": {
+          "tipo": "DDR5",
+          "frequencia": "5600MHz",
+          "capacidade": "16GB",
+          "latencia": "CL46",
+          "iluminacao": "RGB"
+        }
+      },
+      {
+        "nome": "Kingston Fury Beast 16GB",
+        "preco": 89,
+        "imagem": "img/pecas/ram/KingstonDDR56400.jpg",
+        "url": "https://www.pichau.com.br/memoria-kingston-fury-beast-16gb-1x16gb-ddr5-6400mhz-c32-preto-kf564c32bbe-16",
+        "especificacoes": {
+          "tipo": "DDR5",
+          "frequencia": "6400MHz",
+          "capacidade": "16GB",
+          "latencia": "CL32",
+          "recursos": "Intel XMP 3.0"
+        }
+      },
+      {
+        "nome": "Adata XPG Lancer Blade RGB 16GB",
+        "preco": 85,
+        "imagem": "img/pecas/ram/AdataDDR56400.jpg",
+        "url": "https://www.pichau.com.br/memoria-adata-xpg-lancer-blade-rgb-16gb-1x16gb-ddr5-6400mt-s-c32-branca-ax5u6400c3216g-slabrwh",
+        "especificacoes": {
+          "tipo": "DDR5",
+          "frequencia": "6400MT/s",
+          "capacidade": "16GB",
+          "latencia": "CL32",
+          "cor": "Branca",
+          "iluminacao": "RGB"
+        }
+      }
+    ],
+    "placas_de_video": [
+      {
+        "nome": "Gigabyte GeForce RTX 5060 Ti Eagle Max OC",
+        "preco": 485,
+        "imagem": "img/pecas/gpu/GigabiteRTX5060-8.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-max-oc-8gb-gddr7-128-bit-gv-n506teaglemax-oc-8gd",
+        "especificacoes": {
+          "fabricante": "NVIDIA",
+          "vram": "8GB",
+          "tipo_memoria": "GDDR7",
+          "interface": "128-bit",
+          "arquitetura": "Blackwell"
+        }
+      },
+      {
+        "nome": "MSI GeForce RTX 5080 Ventus 3X OC White",
+        "preco": 1240,
+        "imagem": "img/pecas/gpu/MSIRTX5080-16.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-msi-geforce-rtx-5080-ventus-3x-oc-white-16gb-gddr7-256-bit-912-v531-634-nac",
+        "especificacoes": {
+          "fabricante": "NVIDIA",
+          "vram": "16GB",
+          "tipo_memoria": "GDDR7",
+          "interface": "256-bit",
+          "cor": "Branco",
+          "refrigeracao": "Triple Fan"
+        }
+      },
+      {
+        "nome": "Zotac GeForce RTX 5090 Solid OC",
+        "preco": 2150,
+        "imagem": "img/pecas/gpu/ZotacRTX5090-32.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-zotac-geforce-rtx-5090-solid-oc-32gb-gddr7-512-bit-zt-b50900j-10a-nac",
+        "especificacoes": {
+          "fabricante": "NVIDIA",
+          "vram": "32GB",
+          "tipo_memoria": "GDDR7",
+          "interface": "512-bit",
+          "segmento": "Enthusiast"
+        }
+      },
+      {
+        "nome": "MSI GeForce RTX 5070 Shadow 2X OC",
+        "preco": 720,
+        "imagem": "img/pecas/gpu/MSIRTX5070-12.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-msi-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7-192-bit-g5070-12s2c-nac",
+        "especificacoes": {
+          "fabricante": "NVIDIA",
+          "vram": "12GB",
+          "tipo_memoria": "GDDR7",
+          "interface": "192-bit",
+          "refrigeracao": "Dual Fan"
+        }
+      },
+      {
+        "nome": "MSI GeForce RTX 5090 Lightning Z",
+        "preco": 2350,
+        "imagem": "img/pecas/gpu/MSIRTX5090-32.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-msi-geforce-rtx-5090-lightning-z-32gb-gddr7-512-bit-g5090-32lz",
+        "especificacoes": {
+          "fabricante": "NVIDIA",
+          "vram": "32GB",
+          "tipo_memoria": "GDDR7",
+          "interface": "512-bit",
+          "serie": "Lightning Z (Flagship)"
+        }
+      },
+      {
+        "nome": "Gigabyte Radeon RX 9070 XT Gaming",
+        "preco": 760,
+        "imagem": "img/pecas/gpu/GigabiteRX9070XT-16.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-gigabyte-radeon-rx-9070-xt-gaming-16gb-gddr6-256-bit-gv-r9070xtgaming-16gd",
+        "especificacoes": {
+          "fabricante": "AMD",
+          "vram": "16GB",
+          "tipo_memoria": "GDDR6",
+          "interface": "256-bit",
+          "arquitetura": "RDNA 4"
+        }
+      },
+      {
+        "nome": "ASRock Radeon RX 9070 XT Monster Hunter Wilds",
+        "preco": 820,
+        "imagem": "img/pecas/gpu/AsRoxkRX9070XT-16.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-asrock-radeon-rx-9070-xt-monster-hunter-wilds-16gb-gddr6-256-bit-90-ga6fzz-00uanz",
+        "especificacoes": {
+          "fabricante": "AMD",
+          "vram": "16GB",
+          "tipo_memoria": "GDDR6",
+          "interface": "256-bit",
+          "edicao": "Monster Hunter Wilds Special Edition"
+        }
+      },
+      {
+        "nome": "XFX Radeon RX 9070 Swift Triple Fan",
+        "preco": 690,
+        "imagem": "img/pecas/gpu/XFXRX9070-16.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-xfx-radeon-rx-9070-swift-triple-fan-gaming-edition-white-oc-16gb-gddr6-256-bit-rx-97swft3w7",
+        "especificacoes": {
+          "fabricante": "AMD",
+          "vram": "16GB",
+          "tipo_memoria": "GDDR6",
+          "interface": "256-bit",
+          "cor": "Branca",
+          "refrigeracao": "Triple Fan"
+        }
+      },
+      {
+        "nome": "ASRock Radeon RX 7600 Challenger Pro OC",
+        "preco": 285,
+        "imagem": "img/pecas/gpu/AsRockRX7600-8.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-asrock-radeon-rx-7600-challenger-pro-oc-8gb-gddr6-128-bit-90-ga62zz-00uanf",
+        "especificacoes": {
+          "fabricante": "AMD",
+          "vram": "8GB",
+          "tipo_memoria": "GDDR6",
+          "interface": "128-bit"
+        }
+      },
+      {
+        "nome": "Sapphire Radeon RX 7900 XT Gaming",
+        "preco": 780,
+        "imagem": "img/pecas/gpu/SapphireRX7900XT-20.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-sapphire-radeon-rx-7900-xt-gaming-20gb-gddr6-320-bit-21323-01-20g",
+        "especificacoes": {
+          "fabricante": "AMD",
+          "vram": "20GB",
+          "tipo_memoria": "GDDR6",
+          "interface": "320-bit",
+          "arquitetura": "RDNA 3"
+        }
+      },
+      {
+        "nome": "ASRock Radeon RX 7900 XTX",
+        "preco": 1020,
+        "imagem": "img/pecas/gpu/AsRockRX7900XTX-24.jpg",
+        "url": "https://www.pichau.com.br/placa-de-video-asrock-radeon-rx-7900-xtx-24gb-gddr6-384-bit-90-ga44zz-00uanl",
+        "especificacoes": {
+          "fabricante": "AMD",
+          "vram": "24GB",
+          "tipo_memoria": "GDDR6",
+          "interface": "384-bit",
+          "topo_de_linha": true
+        }
+      }
+    ],
+    "armazenamento": [
+      {
+        "nome": "SSD Kingston NV3 1TB",
+        "preco": 82,
+        "imagem": "img/pecas/ssd/snv3s-1000g2.jpg",
+        "url": "https://www.pichau.com.br/ssd-kingston-nv3-1tb-m-2-2280-pcie-nvme-leitura-6000mb-s-gravacao-4000mb-s-snv3s-1000g",
+        "especificacoes": {
+          "capacidade": "1TB",
+          "formato": "M.2 2280",
+          "interface": "PCIe NVMe",
+          "leitura": "6000MB/s",
+          "gravacao": "4000MB/s"
+        }
+      },
+      {
+        "nome": "SSD Lexar NQ790 1TB",
+        "preco": 88,
+        "imagem": "img/pecas/ssd/lnq790x001t-rnnng.jpg",
+        "url": "https://www.pichau.com.br/ssd-lexar-nq790-1tb-m-2-2280-pcie-nvme-leitura-7000mb-s-gravacao-6000mb-s-lnq790x001t-rnnng",
+        "especificacoes": {
+          "capacidade": "1TB",
+          "formato": "M.2 2280",
+          "interface": "PCIe NVMe",
+          "leitura": "7000MB/s",
+          "gravacao": "6000MB/s"
+        }
+      },
+      {
+        "nome": "SSD Kingston NV3 2TB",
+        "preco": 145,
+        "imagem": "img/pecas/ssd/snv3s-2000g1.jpg",
+        "url": "https://www.pichau.com.br/ssd-kingston-nv3-2tb-m-2-2280-pcie-nvme-leitura-6000mb-s-gravacao-5000mb-s-snv3s-2000g",
+        "especificacoes": {
+          "capacidade": "2TB",
+          "formato": "M.2 2280",
+          "interface": "PCIe NVMe",
+          "leitura": "6000MB/s",
+          "gravacao": "5000MB/s"
+        }
+      },
+      {
+        "nome": "SSD Adata XPG Mars 980 Pro 4TB",
+        "preco": 520,
+        "imagem": "img/pecas/ssd/smar-980p-4tci4.jpg",
+        "url": "https://www.pichau.com.br/ssd-adata-xpg-mars-980-pro-4tb-m-2-2280-pcie-nvme-leitura-14000mb-s-gravacao-13000mb-s-smar-980p-4tci",
+        "especificacoes": {
+          "capacidade": "4TB",
+          "formato": "M.2 2280",
+          "interface": "PCIe Gen5 NVMe",
+          "leitura": "14000MB/s",
+          "gravacao": "13000MB/s"
+        }
+      }
+    ],
+    "gabinetes": [
+      {
+        "nome": "Lian Li SUP01 Mid Tower",
+        "preco": 165,
+        "imagem": "img/pecas/gabinete/sup01w3.jpg",
+        "url": "https://www.pichau.com.br/gabinete-gamer-lian-li-sup01-mid-tower-lateral-de-vidro-branco-sup01w",
+        "especificacoes": {
+          "tipo": "Mid Tower",
+          "cor": "Branco",
+          "lateral": "Vidro Temperado",
+          "recursos": "Design Inovador, Fluxo de Ar Superior"
+        }
+      },
+      {
+        "nome": "Cooler Master Elite 600 ARGB",
+        "preco": 85,
+        "imagem": "img/pecas/gabinete/e600-kgnn-s022.jpg",
+        "url": "https://www.pichau.com.br/gabinete-gamer-cooler-master-elite-600-argb-mid-tower-lateral-de-vidro-com-7-fans-preto-e600-kgnn-s02",
+        "especificacoes": {
+          "tipo": "Mid Tower",
+          "cor": "Preto",
+          "lateral": "Vidro Temperado",
+          "fans": "7 Fans Inclusos",
+          "iluminacao": "ARGB"
+        }
+      },
+      {
+        "nome": "Cougar CFV235 Mesh RGB",
+        "preco": 75,
+        "imagem": "img/pecas/gabinete/382da4000056.jpg",
+        "url": "https://www.pichau.com.br/gabinete-gamer-cougar-cfv235-mesh-rgb-mid-tower-lateral-de-vidro-com-3-fans-preto-382da40-0005",
+        "especificacoes": {
+          "tipo": "Mid Tower",
+          "cor": "Preto",
+          "painel_frontal": "Mesh (Tela)",
+          "fans": "3 Fans Inclusos",
+          "iluminacao": "RGB"
+        }
+      },
+      {
+        "nome": "Hyte Y70 Hoshimachi Suisei Edition",
+        "preco": 380,
+        "imagem": "img/pecas/gabinete/cs-hyte-y70-suisei-e2.jpg",
+        "url": "https://www.pichau.com.br/gabinete-gamer-hyte-y70-hoshimachi-suisei-mid-tower-lateral-de-vidro-azul-cs-hyte-y70-suisei-e",
+        "especificacoes": {
+          "tipo": "Mid Tower",
+          "cor": "Azul",
+          "edicao": "Hoshimachi Suisei Limited Edition",
+          "estilo": "Aquário (Panoramic View)"
+        }
+      },
+      {
+        "nome": "Hyte Y70 Touch Infinite Panda",
+        "preco": 440,
+        "imagem": "img/pecas/gabinete/cs-hyte-y70tti-wb415455.jpg",
+        "url": "https://www.pichau.com.br/gabinete-gamer-hyte-y70-touch-infinite-mid-tower-lateral-de-vidro-display-14-9-60hz-panda-cs-hyte-y70tti-wb",
+        "especificacoes": {
+          "tipo": "Mid Tower",
+          "cor": "Panda (Branco/Preto)",
+          "recurso_especial": "Display LCD Touch 14.9\" 60Hz Integrado",
+          "estilo": "Premium"
+        }
+      }
+    ],
+    "fontes": [
+      {
+        "nome": "Thermaltake Toughpower SFX 1000W",
+        "preco": 265,
+        "imagem": "img/pecas/fonte/ps-stp-1000fnfapb-1.jpg",
+        "url": "https://www.pichau.com.br/fonte-thermaltake-toughpower-sfx-1000w-atx-3-1-full-modular-80-plus-platinum-preto-ps-stp-1000fnfapb-1",
+        "especificacoes": {
+          "potencia": "1000W",
+          "formato": "SFX (Compacta)",
+          "padrao": "ATX 3.1",
+          "modularidade": "Full Modular",
+          "certificacao": "80 Plus Platinum"
+        }
+      },
+      {
+        "nome": "Thermalright SG-750S 750W",
+        "preco": 92,
+        "imagem": "img/pecas/fonte/tr-sg750s3_1.jpg",
+        "url": "https://www.pichau.com.br/fonte-thermalright-sg-750s-750w-80-plus-gold-preto-tr-sg750s",
+        "especificacoes": {
+          "potencia": "750W",
+          "certificacao": "80 Plus Gold",
+          "cor": "Preto"
+        }
+      },
+      {
+        "nome": "Redragon RGPS 650W",
+        "preco": 78,
+        "imagem": "img/pecas/fonte/gc-ps014.jpg",
+        "url": "https://www.pichau.com.br/fonte-redragon-rgps-650w-650w-full-modular-80-plus-gold-preto-gc-ps014",
+        "especificacoes": {
+          "potencia": "650W",
+          "modularidade": "Full Modular",
+          "certificacao": "80 Plus Gold"
+        }
+      },
+      {
+        "nome": "XPG Kyber 850W",
+        "preco": 125,
+        "imagem": "img/pecas/fonte/kyber850g-bkcbr4.jpg",
+        "url": "https://www.pichau.com.br/fonte-xpg-kyber-850w-atx-3-1-80-plus-gold-preto-kyber850g-bkcbr",
+        "especificacoes": {
+          "potencia": "850W",
+          "padrao": "ATX 3.1 / PCIe 5.0 Ready",
+          "certificacao": "80 Plus Gold"
+        }
+      }
+    ]
+  }
+}
