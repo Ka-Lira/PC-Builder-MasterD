@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "NVIDIA RTX 5090: REINA DEL 4K",
+    "resumo": "La arquitectura Blackwell promete duplicar el rendimiento en Ray Tracing y eficiencia energética."
+  },
+  {
+    "titulo": "AMD RYZEN 9000: ZEN 5 LLEGA",
+    "resumo": "Los nuevos procesadores de AMD redefinen el IPC con un incremento del 16% en tareas mononúcleo."
+  },
+  {
+    "titulo": "INTEL CORE ULTRA: ERA DE LA IA",
+    "resumo": "La serie Arrow Lake elimina el Hyper-Threading para priorizar núcleos de rendimiento puro y NPU dedicada."
+  },
+  {
+    "titulo": "DDR5 ALCANZA LOS 10.000 MT/S",
+    "resumo": "Nuevos módulos de memoria extrema establecen un récord mundial de velocidad en plataformas AM5 y Z890."
+  },
+  {
+    "titulo": "NVME GEN 5: VELOCIDAD LÍMITE",
+    "resumo": "Los nuevos discos alcanzan los 14.000 MB/s, reduciendo los tiempos de carga en juegos al mínimo histórico."
+  },
+  {
+    "titulo": "MONITORES OLED DE 480HZ",
+    "resumo": "La tecnología de paneles evoluciona para ofrecer la latencia más baja vista en la historia de los esports."
+  },
+  {
+    "titulo": "DLSS 4: IA QUE CREA TEXTURAS",
+    "resumo": "La inteligencia artificial de Nvidia ahora es capaz de generar detalles de alta resolución en tiempo real."
+  },
+  {
+    "titulo": "REFRIGERACIÓN LÍQUIDA AIO 4.0",
+    "resumo": "Nuevos sistemas de enfriamiento incluyen pantallas OLED de 4 pulgadas para monitorear el sistema."
+  },
+  {
+    "titulo": "FUENTES ATX 3.1: PODER SEGURO",
+    "resumo": "El nuevo estándar de conectores 12V-2x6 garantiza estabilidad total para las GPUs más exigentes."
+  },
+  {
+    "titulo": "CHASIS 360: ESTÉTICA TOTAL",
+    "resumo": "La tendencia de gabinetes tipo 'pecera' se consolida con cristales curvos sin pilares de soporte visibles."
+  }
+]
