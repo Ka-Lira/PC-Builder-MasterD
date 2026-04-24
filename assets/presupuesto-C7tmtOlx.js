@@ -28,4 +28,4 @@ import{t as e}from"./gsap-Z6x547R-.js";var t=document.getElementById(`menu-toggl
                     ${document.getElementById(`cp`).value},
                     ${document.getElementById(`localidad`).value},
                     ${document.getElementById(`provincia`).value}
-                `},configuracion:o,extras:e,descuento:i,total:document.getElementById(`total-price`).innerText,plazo:document.getElementById(`plazo`).value};localStorage.setItem(`pedidoActual`,JSON.stringify(a)),window.location.href=`./contacto.html`}else alert(`Por favor, revisa los datos marcados en rojo.`)});
+                `},configuracion:o,extras:e,descuento:i,total:document.getElementById(`total-price`).innerText,plazo:document.getElementById(`plazo`).value};localStorage.setItem(`pedidoActual`,JSON.stringify(a)),window.location.href=`contacto.html`}else alert(`Por favor, revisa los datos marcados en rojo.`)});
